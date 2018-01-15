@@ -8,10 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		60845FBE200CD0CC0071F5FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60845FBD200CD0CC0071F5FC /* AppDelegate.swift */; };
-		60845FC0200CD0CC0071F5FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60845FBF200CD0CC0071F5FC /* ViewController.swift */; };
-		60845FC3200CD0CC0071F5FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60845FC1200CD0CC0071F5FC /* Main.storyboard */; };
 		60845FC5200CD0CC0071F5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60845FC4200CD0CC0071F5FC /* Assets.xcassets */; };
 		60845FC8200CD0CC0071F5FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60845FC6200CD0CC0071F5FC /* LaunchScreen.storyboard */; };
+		60845FD1200CD2CE0071F5FC /* PeripheralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60845FCF200CD2CE0071F5FC /* PeripheralViewController.swift */; };
+		60845FD2200CD2CE0071F5FC /* PeripheralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60845FD0200CD2CE0071F5FC /* PeripheralViewController.xib */; };
+		60845FD5200CD30E0071F5FC /* CentralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60845FD3200CD30E0071F5FC /* CentralViewController.swift */; };
+		60845FD6200CD30E0071F5FC /* CentralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60845FD4200CD30E0071F5FC /* CentralViewController.xib */; };
+		60845FDD200CD72E0071F5FC /* UIResponder+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60845FDC200CD72E0071F5FC /* UIResponder+Extension.swift */; };
 		B788572423D88C263DA7ABC0 /* Pods_CentralPeripheralBluetoothApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B4A805113D37A4162054D4 /* Pods_CentralPeripheralBluetoothApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,11 +23,14 @@
 		49B4A805113D37A4162054D4 /* Pods_CentralPeripheralBluetoothApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CentralPeripheralBluetoothApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60845FBA200CD0CC0071F5FC /* CentralPeripheralBluetoothApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CentralPeripheralBluetoothApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60845FBD200CD0CC0071F5FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		60845FBF200CD0CC0071F5FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		60845FC2200CD0CC0071F5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		60845FC4200CD0CC0071F5FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		60845FC7200CD0CC0071F5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		60845FC9200CD0CC0071F5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60845FCF200CD2CE0071F5FC /* PeripheralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralViewController.swift; sourceTree = "<group>"; };
+		60845FD0200CD2CE0071F5FC /* PeripheralViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PeripheralViewController.xib; sourceTree = "<group>"; };
+		60845FD3200CD30E0071F5FC /* CentralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralViewController.swift; sourceTree = "<group>"; };
+		60845FD4200CD30E0071F5FC /* CentralViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CentralViewController.xib; sourceTree = "<group>"; };
+		60845FDC200CD72E0071F5FC /* UIResponder+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Extension.swift"; sourceTree = "<group>"; };
 		945497B6CF1E208D1F51CD8B /* Pods-CentralPeripheralBluetoothApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CentralPeripheralBluetoothApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CentralPeripheralBluetoothApp/Pods-CentralPeripheralBluetoothApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,13 +77,48 @@
 			isa = PBXGroup;
 			children = (
 				60845FBD200CD0CC0071F5FC /* AppDelegate.swift */,
-				60845FBF200CD0CC0071F5FC /* ViewController.swift */,
-				60845FC1200CD0CC0071F5FC /* Main.storyboard */,
 				60845FC4200CD0CC0071F5FC /* Assets.xcassets */,
 				60845FC6200CD0CC0071F5FC /* LaunchScreen.storyboard */,
 				60845FC9200CD0CC0071F5FC /* Info.plist */,
+				60845FDB200CD7160071F5FC /* Extensions */,
+				60845FD7200CD3190071F5FC /* ViewControllers */,
 			);
 			path = CentralPeripheralBluetoothApp;
+			sourceTree = "<group>";
+		};
+		60845FD7200CD3190071F5FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				60845FD9200CD3280071F5FC /* Peripheral */,
+				60845FD8200CD3210071F5FC /* Central */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		60845FD8200CD3210071F5FC /* Central */ = {
+			isa = PBXGroup;
+			children = (
+				60845FD3200CD30E0071F5FC /* CentralViewController.swift */,
+				60845FD4200CD30E0071F5FC /* CentralViewController.xib */,
+			);
+			path = Central;
+			sourceTree = "<group>";
+		};
+		60845FD9200CD3280071F5FC /* Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				60845FCF200CD2CE0071F5FC /* PeripheralViewController.swift */,
+				60845FD0200CD2CE0071F5FC /* PeripheralViewController.xib */,
+			);
+			path = Peripheral;
+			sourceTree = "<group>";
+		};
+		60845FDB200CD7160071F5FC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				60845FDC200CD72E0071F5FC /* UIResponder+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		747FA03B38C5E212AA631BA7 /* Frameworks */ = {
@@ -152,7 +193,8 @@
 			files = (
 				60845FC8200CD0CC0071F5FC /* LaunchScreen.storyboard in Resources */,
 				60845FC5200CD0CC0071F5FC /* Assets.xcassets in Resources */,
-				60845FC3200CD0CC0071F5FC /* Main.storyboard in Resources */,
+				60845FD6200CD30E0071F5FC /* CentralViewController.xib in Resources */,
+				60845FD2200CD2CE0071F5FC /* PeripheralViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,7 +256,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60845FC0200CD0CC0071F5FC /* ViewController.swift in Sources */,
+				60845FD1200CD2CE0071F5FC /* PeripheralViewController.swift in Sources */,
+				60845FD5200CD30E0071F5FC /* CentralViewController.swift in Sources */,
+				60845FDD200CD72E0071F5FC /* UIResponder+Extension.swift in Sources */,
 				60845FBE200CD0CC0071F5FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,14 +266,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		60845FC1200CD0CC0071F5FC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				60845FC2200CD0CC0071F5FC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		60845FC6200CD0CC0071F5FC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

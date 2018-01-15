@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CentralViewController.swift
 //  CentralPeripheralBluetoothApp
 //
 //  Created by aleksanders on 15.01.2018.
@@ -7,19 +7,18 @@
 //
 
 import UIKit
+import CoreBluetooth
 
-class ViewController: UIViewController {
+class CentralViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-

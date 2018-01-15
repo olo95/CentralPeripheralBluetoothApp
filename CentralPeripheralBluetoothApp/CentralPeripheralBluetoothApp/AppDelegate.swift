@@ -11,11 +11,22 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var window: UIWindow?
-
+    var window: UIWindow!
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let tabBarController = UITabBarController()
+        
+        let peripheralViewController = PeripheralViewController(nibName: PeripheralViewController.typeName, bundle: nil)
+        peripheralViewController.tabBarItem = UITabBarItem(title: "Peripheral", image: nil, selectedImage: nil)
+        let centralViewController = CentralViewController(nibName: CentralViewController.typeName, bundle: nil)
+        centralViewController.tabBarItem = UITabBarItem(title: "Central", image: nil, selectedImage: nil)
+        
+        tabBarController.viewControllers = [centralViewController, peripheralViewController]
+        window.rootViewController = tabBarController
+        window.makeKeyAndVisible()
+        
         return true
     }
 
