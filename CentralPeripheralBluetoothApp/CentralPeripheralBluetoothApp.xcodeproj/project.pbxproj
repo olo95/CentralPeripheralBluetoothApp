@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60845FBE200CD0CC0071F5FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60845FBD200CD0CC0071F5FC /* AppDelegate.swift */; };
+		60845FC0200CD0CC0071F5FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60845FBF200CD0CC0071F5FC /* ViewController.swift */; };
+		60845FC3200CD0CC0071F5FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60845FC1200CD0CC0071F5FC /* Main.storyboard */; };
+		60845FC5200CD0CC0071F5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60845FC4200CD0CC0071F5FC /* Assets.xcassets */; };
+		60845FC8200CD0CC0071F5FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60845FC6200CD0CC0071F5FC /* LaunchScreen.storyboard */; };
+		B788572423D88C263DA7ABC0 /* Pods_CentralPeripheralBluetoothApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49B4A805113D37A4162054D4 /* Pods_CentralPeripheralBluetoothApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10F7AC7FE7FB7BCAB4C6DF53 /* Pods-CentralPeripheralBluetoothApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CentralPeripheralBluetoothApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-CentralPeripheralBluetoothApp/Pods-CentralPeripheralBluetoothApp.release.xcconfig"; sourceTree = "<group>"; };
+		49B4A805113D37A4162054D4 /* Pods_CentralPeripheralBluetoothApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CentralPeripheralBluetoothApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60845FBA200CD0CC0071F5FC /* CentralPeripheralBluetoothApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CentralPeripheralBluetoothApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60845FBD200CD0CC0071F5FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60845FBF200CD0CC0071F5FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		60845FC2200CD0CC0071F5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60845FC4200CD0CC0071F5FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60845FC7200CD0CC0071F5FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60845FC9200CD0CC0071F5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945497B6CF1E208D1F51CD8B /* Pods-CentralPeripheralBluetoothApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CentralPeripheralBluetoothApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CentralPeripheralBluetoothApp/Pods-CentralPeripheralBluetoothApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60845FB7200CD0CC0071F5FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B788572423D88C263DA7ABC0 /* Pods_CentralPeripheralBluetoothApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		219D8562F87D25400DA6155F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				945497B6CF1E208D1F51CD8B /* Pods-CentralPeripheralBluetoothApp.debug.xcconfig */,
+				10F7AC7FE7FB7BCAB4C6DF53 /* Pods-CentralPeripheralBluetoothApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60845FB1200CD0CC0071F5FC = {
+			isa = PBXGroup;
+			children = (
+				60845FBC200CD0CC0071F5FC /* CentralPeripheralBluetoothApp */,
+				60845FBB200CD0CC0071F5FC /* Products */,
+				219D8562F87D25400DA6155F /* Pods */,
+				747FA03B38C5E212AA631BA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		60845FBB200CD0CC0071F5FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60845FBA200CD0CC0071F5FC /* CentralPeripheralBluetoothApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60845FBC200CD0CC0071F5FC /* CentralPeripheralBluetoothApp */ = {
+			isa = PBXGroup;
+			children = (
+				60845FBD200CD0CC0071F5FC /* AppDelegate.swift */,
+				60845FBF200CD0CC0071F5FC /* ViewController.swift */,
+				60845FC1200CD0CC0071F5FC /* Main.storyboard */,
+				60845FC4200CD0CC0071F5FC /* Assets.xcassets */,
+				60845FC6200CD0CC0071F5FC /* LaunchScreen.storyboard */,
+				60845FC9200CD0CC0071F5FC /* Info.plist */,
+			);
+			path = CentralPeripheralBluetoothApp;
+			sourceTree = "<group>";
+		};
+		747FA03B38C5E212AA631BA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49B4A805113D37A4162054D4 /* Pods_CentralPeripheralBluetoothApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60845FB9200CD0CC0071F5FC /* CentralPeripheralBluetoothApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60845FCC200CD0CC0071F5FC /* Build configuration list for PBXNativeTarget "CentralPeripheralBluetoothApp" */;
+			buildPhases = (
+				BA58AB030CAB21DFFAA5E276 /* [CP] Check Pods Manifest.lock */,
+				60845FB6200CD0CC0071F5FC /* Sources */,
+				60845FB7200CD0CC0071F5FC /* Frameworks */,
+				60845FB8200CD0CC0071F5FC /* Resources */,
+				44E6393588E401CF077B398A /* [CP] Embed Pods Frameworks */,
+				5B0E6D9CD37DA623223E01E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CentralPeripheralBluetoothApp;
+			productName = CentralPeripheralBluetoothApp;
+			productReference = 60845FBA200CD0CC0071F5FC /* CentralPeripheralBluetoothApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60845FB2200CD0CC0071F5FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = SaszaCorp;
+				TargetAttributes = {
+					60845FB9200CD0CC0071F5FC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 60845FB5200CD0CC0071F5FC /* Build configuration list for PBXProject "CentralPeripheralBluetoothApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60845FB1200CD0CC0071F5FC;
+			productRefGroup = 60845FBB200CD0CC0071F5FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60845FB9200CD0CC0071F5FC /* CentralPeripheralBluetoothApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60845FB8200CD0CC0071F5FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60845FC8200CD0CC0071F5FC /* LaunchScreen.storyboard in Resources */,
+				60845FC5200CD0CC0071F5FC /* Assets.xcassets in Resources */,
+				60845FC3200CD0CC0071F5FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44E6393588E401CF077B398A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CentralPeripheralBluetoothApp/Pods-CentralPeripheralBluetoothApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B0E6D9CD37DA623223E01E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CentralPeripheralBluetoothApp/Pods-CentralPeripheralBluetoothApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA58AB030CAB21DFFAA5E276 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CentralPeripheralBluetoothApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60845FB6200CD0CC0071F5FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60845FC0200CD0CC0071F5FC /* ViewController.swift in Sources */,
+				60845FBE200CD0CC0071F5FC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		60845FC1200CD0CC0071F5FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60845FC2200CD0CC0071F5FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60845FC6200CD0CC0071F5FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60845FC7200CD0CC0071F5FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60845FCA200CD0CC0071F5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		60845FCB200CD0CC0071F5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60845FCD200CD0CC0071F5FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 945497B6CF1E208D1F51CD8B /* Pods-CentralPeripheralBluetoothApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH748L7MFS;
+				INFOPLIST_FILE = CentralPeripheralBluetoothApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saszaCorp.CentralPeripheralBluetoothApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60845FCE200CD0CC0071F5FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10F7AC7FE7FB7BCAB4C6DF53 /* Pods-CentralPeripheralBluetoothApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CH748L7MFS;
+				INFOPLIST_FILE = CentralPeripheralBluetoothApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = saszaCorp.CentralPeripheralBluetoothApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60845FB5200CD0CC0071F5FC /* Build configuration list for PBXProject "CentralPeripheralBluetoothApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60845FCA200CD0CC0071F5FC /* Debug */,
+				60845FCB200CD0CC0071F5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60845FCC200CD0CC0071F5FC /* Build configuration list for PBXNativeTarget "CentralPeripheralBluetoothApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60845FCD200CD0CC0071F5FC /* Debug */,
+				60845FCE200CD0CC0071F5FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60845FB2200CD0CC0071F5FC /* Project object */;
+}
