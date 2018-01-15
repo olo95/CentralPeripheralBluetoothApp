@@ -15,15 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        window = UIWindow(frame: UIScreen.main.bounds)
         let tabBarController = UITabBarController()
-        
-        let peripheralViewController = PeripheralViewController(nibName: PeripheralViewController.typeName, bundle: nil)
-        peripheralViewController.tabBarItem = UITabBarItem(title: "Peripheral", image: nil, selectedImage: nil)
-        let centralViewController = CentralViewController(nibName: CentralViewController.typeName, bundle: nil)
-        centralViewController.tabBarItem = UITabBarItem(title: "Central", image: nil, selectedImage: nil)
-        
+        let peripheralViewController = PeripheralViewController()
+        let centralViewController = CentralViewController()
         tabBarController.viewControllers = [centralViewController, peripheralViewController]
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
         window.rootViewController = tabBarController
         window.makeKeyAndVisible()
         
